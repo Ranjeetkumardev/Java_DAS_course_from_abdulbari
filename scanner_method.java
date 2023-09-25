@@ -9,15 +9,17 @@ import  java.util.*;
 7.nextShort() -> 
 8.nextLong() -> 
 9.nextBoolean() -> 
-10.hasnextInt() -> 
-11.hasnextFloat() -> */
+10.hasnextInt() -> it check ip data is integer or not i.e op true/false
+11.hasnextFloat() ->
+ use this keyword javap java.util.Scanner in terminal you got all Scanner methods
+ */
 public class scanner_method{
     public static void main(String arg[]){
         Scanner s = new Scanner(System.in);
         // int a,b;
         // System.out.println("Enter two numbers ");
         // a = s.nextInt();
-        // b = s.nextInt();
+        // b = s.nextInt();// if u give i/p a float value u got error 
         // int c = a+b;
         // System.out.println("Sum of Two No is " + c);
      String name;
