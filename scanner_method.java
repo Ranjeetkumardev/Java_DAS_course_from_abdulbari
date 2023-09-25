@@ -1,4 +1,16 @@
-import  java.util.*;
+import  java.util.*; 
+/* class Scanner 
+1.nextInt() -> Taking input as a integers
+2.nextFloat() -> Taking input as a Floats
+3.nextDouble() -> Taking input as a Doubles
+4.next() -> Taking input as a Strings/i.e just one word 
+5.nextLine() -> Taking input as a Sentence/Line 
+6.nextByte() -> 
+7.nextShort() -> 
+8.nextLong() -> 
+9.nextBoolean() -> 
+10.hasnextInt() -> 
+11.hasnextFloat() -> */
 public class scanner_method{
     public static void main(String arg[]){
         Scanner s = new Scanner(System.in);
